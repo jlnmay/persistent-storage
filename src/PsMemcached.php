@@ -2,7 +2,7 @@
 
 namespace JlnMay\PersistentStorage; 
 
-class Memcached 
+class PsMemcached 
 {
     /* Memcached */
     private static 	$instance;
