@@ -1,6 +1,6 @@
 <?php 
 
-namespace JlnMay\PersistanceStorage\Memcached; 
+namespace JlnMay\PersistanceStorage; 
 
 class Memcached 
 {
