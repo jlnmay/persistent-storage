@@ -1,0 +1,24 @@
+{
+    "name": "jlnmay/persistent-storage",
+    "description": "Persistent storage memcached",
+    "keywords": ["persistent", "storage", "memcached"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Julián May",
+            "email": "jmay@rjakes.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "JlnMay\\PersistentStorage\\": "src/"
+        }
+    }
+}
