@@ -8,7 +8,7 @@ class PsMemcached
     private static 	$instance;
     private static $host = '127.0.0.1';
     private static $port = '11211';
-    private static $tiime = 600;
+    private static $time = 600;
     private static $memcached;
 
     /**
