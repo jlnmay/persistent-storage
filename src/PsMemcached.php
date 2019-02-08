@@ -56,7 +56,7 @@ class PsMemcached
     {
         if (null === static::$memcached) {
             if (class_exists('Memcached')) {
-                static::$memcached = new Memcached();
+                static::$memcached = new \Memcached();
                 static::$memcached->addServer(self::$host,self::$port);
             } else {
                 exit(json_encode(
