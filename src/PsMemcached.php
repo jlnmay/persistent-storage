@@ -79,7 +79,7 @@ class PsMemcached
         if (isset($data['key']) && $data['key'] != "") {
             if (is_array($data['store'])) {
                 $mc = static::$memcached;
-                $mc->set($data['key'],serialize($data['store']), self::$_memcached_time); // Update to version memcached 3 removes second parameter
+                $mc->set($data['key'],serialize($data['store']), self::$time); // Update to version memcached 3 removes second parameter
                 return true;
             }
         }
